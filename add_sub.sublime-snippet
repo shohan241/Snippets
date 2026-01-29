@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+const int mod = 1e9 + 7;
+template <typename T>
+void add(T &a, T b) {
+   a += b;
+   if (a >= mod) a -= mod;
+}
+template <typename M>
+void sub(M &a, M b) {
+   a -= b;
+   if (a < 0) a += mod;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>add_sub</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

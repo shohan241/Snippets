@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define endl '\n'
+#define ckk cout << "OK TILL HERE" << endl;
+const ll maxn = 2e6 + 7;
+const ll inf = 1e18;
+
+//---------- Struggle starts from here ----------//
+
+void solve() {
+	$1
+}
+
+int main() {
+	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
+	ll t = 1;
+	cin >> t;
+
+	for (ll tc = 1; tc <= t; tc++) {
+		// cout << "Case " << tc << ": ";
+		solve();
+	}
+}]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cpp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
