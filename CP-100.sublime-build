@@ -1,0 +1,6 @@
+{
+  "shell_cmd": "C:\\msys64\\ucrt64\\bin\\g++.exe -std=c++17 \"${file}\" -O2 -Wall -Wextra -o \"${file_path}\\${file_base_name}.exe\" && \"${file_path}\\${file_base_name}.exe\" < \"${file_path}\\input.txt\" > \"${file_path}\\output.txt\"",
+  "selector": "source.c++",
+  "working_dir": "${file_path}",
+  "shell": true
+}
